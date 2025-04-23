@@ -1,0 +1,125 @@
+*{
+ margin: 0;
+ padding:0;
+ font-family: "Oswald", sans-serif;
+}
+.container{
+    height:100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, #37693e , #909f13);
+}
+.login-form{
+    height :88vh;
+    /* border: 2px solid black; */
+    width: 70vw;
+    border-radius: 50px;
+    display: flex;
+    overflow: hidden;
+    background-color: white;
+}
+.login_left{
+ /* border: 2px solid black; */
+ height: 100% ;
+ width: 50%;
+background-color: #004754;
+border-top-right-radius: 150px;
+border-bottom-right-radius: 150px;
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+
+}
+.login-left-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    row-gap: 30px;
+}
+
+.login-left-content h1{
+    font-size: 58px;
+}
+.login-left-content p{
+    font-size: 20px;
+    text-align: center;
+}
+.login_right{
+ /* border: 2px solid black; */
+ height: 200px;
+ width: 100px;
+ height: 100%;
+ width: 50%;
+background-color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+.login-left-content button{
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    background: none;
+    border: 2px solid white;
+    color: white;
+}
+.login_right_content{
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: column;
+/* row-gap: 20px; */
+}
+.icon_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    }
+
+.login_right_content h1{
+    font-size: 58px;
+     margin-bottom: 20px ;
+}
+.icon{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.icon i{
+
+font-size: 20px;
+}
+input{
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(201, 194, 194);
+    outline: none;
+    border: none;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 400px;
+
+}
+.login_right_content button{
+    height: 50px;
+    width: 200px;
+    background-color: #bebd00;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
